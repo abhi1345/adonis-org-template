@@ -12,20 +12,16 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 8. Migrations and seeds
 
 ## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
+1. Get your AWS ec2 Instance setup
+2. Clone this repo
+3. Run this command to start the server (MAKE SURE IT WORKS)
+```shell
+adonis serve --dev
 ```
 
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
+### Getting the server to run after ssh logout
+This must be done so that the website works even when your computer is off. You can use pm2 to do so.
+1. ```shell 
+npm install pm2 -g
 ```
+2. 
