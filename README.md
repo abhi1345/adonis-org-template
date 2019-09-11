@@ -1,4 +1,4 @@
-# Convergent Website
+# AdonisJS Boilerplate for an Org/Club Website
 
 (Only a template, not the actual repo for https://calconvergent.com)
 
