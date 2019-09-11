@@ -1,5 +1,7 @@
 # Convergent Website
 
+(Only a template, not the actual repo for https://calconvergent.com)
+
 ## Setup
 1. Get your AWS ec2 Instance setup (aws.amazon.com). Go with the default free tier options for everything.
 2. ssh into your instance and Clone this repo
